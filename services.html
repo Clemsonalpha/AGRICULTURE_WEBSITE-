@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Our Services - Agricultural Commodity Trading Services | NecsTrade
+    </title>
+    <meta
+      name="description"
+      content="Comprehensive agricultural commodity trading services including sourcing, quality control, logistics, and market advisory for bulk buyers and international traders."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loader"></div>
+      <p style="margin-top: 20px; color: var(--deep-green)">Loading...</p>
+    </div>
+
+    <!-- Header (same structure as index.html) -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <div class="logo-img">
+            <i
+              class="fas fa-leaf"
+              style="color: var(--deep-green); font-size: 2rem"
+            ></i>
+          </div>
+          <span class="logo-text">NecsTrade</span>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="products.html" class="nav-link">Products</a></li>
+            <li><a href="industries.html" class="nav-link">Industries</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+            >Request Quote</a
+          >
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+      <div class="container">
+        <ul class="breadcrumb-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="separator">/</li>
+          <li class="current">Our Services</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero hero-inner">
+      <div
+        class="hero-overlay"
+        style="
+          background: linear-gradient(
+            to bottom,
+            rgba(27, 94, 32, 0.9) 0%,
+            rgba(27, 94, 32, 0.7) 100%
+          );
+        "
+      ></div>
+      <div class="hero-content">
+        <h1>Our Services</h1>
+        <p>
+          Comprehensive agricultural commodity trading solutions from sourcing
+          to delivery
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Complete Trading Solutions</h2>
+          <p>End-to-end services for agricultural commodity trading</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Agricultural Commodity Trading</h3>
+            <p>
+              Comprehensive trading services for maize, soyabeans, cashew,
+              chilli pepper, and other agricultural products.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Spot and forward contracts</li>
+              <li>Bulk quantity trading</li>
+              <li>International export services</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3>Commodity Sourcing & Aggregation</h3>
+            <p>
+              Direct sourcing from verified farmers and aggregation for bulk
+              supply requirements.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Farmer verification and training</li>
+              <li>Quality-based aggregation</li>
+              <li>Traceability systems</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <h3>Quality Control & Grading</h3>
+            <p>
+              Rigorous quality inspection, grading, and certification according
+              to international standards.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Laboratory testing</li>
+              <li>Moisture content analysis</li>
+              <li>Quality certification</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Services -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-boxes"></i>
+            </div>
+            <h3>Bulk Supply & Contract Fulfillment</h3>
+            <p>
+              Reliable bulk supply chain management and contract execution for
+              consistent delivery.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Contract farming coordination</li>
+              <li>Bulk storage solutions</li>
+              <li>Supply contract management</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3>Logistics & Distribution Coordination</h3>
+            <p>
+              Efficient transportation, storage, and distribution coordination
+              for timely delivery.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Transportation coordination</li>
+              <li>Warehousing solutions</li>
+              <li>Export documentation</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Market Advisory & Trade Support</h3>
+            <p>
+              Market intelligence, pricing strategies, and trade facilitation
+              services for optimal results.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Market analysis reports</li>
+              <li>Price trend monitoring</li>
+              <li>Trade risk assessment</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Livestock Services -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Livestock & Poultry Services</h2>
+          <p>Specialized services for animal protein commodities</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-egg"></i>
+            </div>
+            <h3>Egg Supply</h3>
+            <p>
+              Regular supply of fresh, quality eggs for retail, wholesale, and
+              industrial users.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Fresh table eggs</li>
+              <li>Grading and sorting</li>
+              <li>Regular supply contracts</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-drumstick-bite"></i>
+            </div>
+            <h3>Chicken Supply</h3>
+            <p>
+              Quality chicken meat supply including whole birds, cuts, and
+              processed products.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Live chicken supply</li>
+              <li>Processed chicken cuts</li>
+              <li>Frozen chicken products</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-piggy-bank"></i>
+            </div>
+            <h3>Pork Supply</h3>
+            <p>
+              Regular supply of quality pork products from verified farms and
+              processors.
+            </p>
+            <ul style="text-align: left; margin-top: var(--space-sm)">
+              <li>Fresh pork cuts</li>
+              <li>Processed pork products</li>
+              <li>Bulk supply arrangements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Process -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Service Process</h2>
+          <p>How we deliver exceptional service to our clients</p>
+        </div>
+
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <div style="position: relative">
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: var(--space-lg);
+                "
+              >
+                <div
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    background: var(--deep-green);
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    margin-right: var(--space-md);
+                  "
+                >
+                  1
+                </div>
+                <div>
+                  <h3 style="margin-bottom: var(--space-xs)">
+                    Initial Consultation
+                  </h3>
+                  <p>Understanding your requirements and commodity needs</p>
+                </div>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: var(--space-lg);
+                "
+              >
+                <div
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    background: var(--deep-green);
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    margin-right: var(--space-md);
+                  "
+                >
+                  2
+                </div>
+                <div>
+                  <h3 style="margin-bottom: var(--space-xs)">
+                    Sourcing & Quality Check
+                  </h3>
+                  <p>
+                    Identifying reliable sources and conducting quality
+                    inspections
+                  </p>
+                </div>
+              </div>
+
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: var(--space-lg);
+                "
+              >
+                <div
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    background: var(--deep-green);
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    margin-right: var(--space-md);
+                  "
+                >
+                  3
+                </div>
+                <div>
+                  <h3 style="margin-bottom: var(--space-xs)">
+                    Logistics Planning
+                  </h3>
+                  <p>
+                    Coordinating transportation, storage, and delivery logistics
+                  </p>
+                </div>
+              </div>
+
+              <div style="display: flex; align-items: center">
+                <div
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    background: var(--deep-green);
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    margin-right: var(--space-md);
+                  "
+                >
+                  4
+                </div>
+                <div>
+                  <h3 style="margin-bottom: var(--space-xs)">
+                    Delivery & Follow-up
+                  </h3>
+                  <p>Ensuring timely delivery and post-delivery satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              class="lazy"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            >
+              <source src="videos/video6.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Ready to Trade?</h2>
+          <p>Contact us today to discuss your agricultural commodity needs</p>
+        </div>
+
+        <div style="text-align: center">
+          <a
+            href="contact.html"
+            class="btn btn-primary"
+            style="margin-right: var(--space-sm)"
+            >Contact Us</a
+          >
+          <a href="#quoteModal" class="btn btn-secondary request-quote-btn"
+            >Request a Quote</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>NecsTrade</h3>
+            <p>
+              Your trusted partner for agricultural commodity trading in Ghana
+              and West Africa. We connect producers with global markets through
+              reliable supply chains.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+              <li><i class="fas fa-phone"></i> 0598460941</li>
+              <li><i class="fas fa-envelope"></i> necstrade@gmail.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Our Products</h3>
+            <ul class="footer-links">
+              <li><a href="products.html#maize">Maize</a></li>
+              <li><a href="products.html#soyabeans">Soyabeans</a></li>
+              <li><a href="products.html#poultry">Poultry Products</a></li>
+              <li><a href="products.html#cashew">Cashew Nuts</a></li>
+              <li><a href="products.html#pepper">Chilli Pepper</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 NecsTrade Agricultural Commodity Trading. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div class="modal" id="quoteModal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2 style="color: var(--deep-green)">Request a Quote</h2>
+        <p>
+          Fill in your details and commodity requirements for a customized
+          quote.
+        </p>
+
+        <form id="quoteForm">
+          <div class="form-group">
+            <label for="quoteName" class="form-label">Full Name *</label>
+            <input
+              type="text"
+              id="quoteName"
+              name="name"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCompany" class="form-label">Company Name</label>
+            <input
+              type="text"
+              id="quoteCompany"
+              name="company"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="quoteEmail" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              id="quoteEmail"
+              name="email"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quotePhone" class="form-label">Phone Number *</label>
+            <input
+              type="tel"
+              id="quotePhone"
+              name="phone"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCommodity" class="form-label"
+              >Commodity Interest *</label
+            >
+            <select
+              id="quoteCommodity"
+              name="commodity"
+              class="form-control"
+              required
+            >
+              <option value="">Select a commodity</option>
+              <option value="maize">Maize</option>
+              <option value="soyabeans">Soyabeans</option>
+              <option value="cashew">Cashew Nuts</option>
+              <option value="pepper">Chilli Pepper</option>
+              <option value="sugar">Sugar</option>
+              <option value="eggs">Eggs</option>
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteQuantity" class="form-label"
+              >Quantity Requirement *</label
+            >
+            <input
+              type="text"
+              id="quoteQuantity"
+              name="quantity"
+              class="form-control"
+              placeholder="e.g., 100 tonnes, 5000 kg"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteMessage" class="form-label"
+              >Additional Information</label
+            >
+            <textarea
+              id="quoteMessage"
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Any specific requirements or details..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Request Quote
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

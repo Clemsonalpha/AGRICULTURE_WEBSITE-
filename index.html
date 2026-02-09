@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NecsTrade - Agricultural Commodity Trading Company | Ghana</title>
+    <meta
+      name="description"
+      content="NecsTrade is a leading agricultural commodity trading company in Ghana, specializing in livestock, poultry, maize, soyabeans, and other agricultural products for local and international markets."
+    />
+    <meta
+      name="keywords"
+      content="agricultural commodity trading Ghana, livestock trading Ghana, poultry supply Ghana, bulk maize suppliers Ghana, soyabean exporters West Africa, agricultural commodity exporters Africa"
+    />
+
+    <!-- Open Graph Tags -->
+    <meta
+      property="og:title"
+      content="NecsTrade - Agricultural Commodity Trading Company"
+    />
+    <meta
+      property="og:description"
+      content="Leading agricultural commodity trading in Ghana for local and international markets"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://necstrade.com" />
+    <meta
+      property="og:image"
+      content="https://necstrade.com/images/og-image.jpg"
+    />
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NecsTrade",
+        "url": "https://necstrade.com",
+        "logo": "https://necstrade.com/images/logo.png",
+        "description": "Agricultural commodity trading company based in Accra, Ghana",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Accra",
+          "addressRegion": "Greater Accra",
+          "addressCountry": "GH"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+233-0598460941",
+          "contactType": "Customer Service",
+          "email": "necstrade@gmail.com"
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loader"></div>
+      <p style="margin-top: 20px; color: var(--deep-green)">
+        Loading NecsTrade...
+      </p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <div class="logo-img">
+            <i
+              class="fas fa-leaf"
+              style="color: var(--deep-green); font-size: 2rem"
+            ></i>
+          </div>
+          <span class="logo-text">NecsTrade</span>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="products.html" class="nav-link">Products</a></li>
+            <li><a href="industries.html" class="nav-link">Industries</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+            >Request Quote</a
+          >
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <!-- Home Page Hero -->
+    <section class="hero">
+      <video autoplay muted loop playsinline class="hero-video lazy">
+        <source src="videos/video1.mp4" type="video/mp4" />
+        <!-- Fallback image if video doesn't load -->
+        <img
+          src="images/hero-bg.jpg"
+          alt="Agricultural fields in Ghana"
+          style="object-fit: cover; width: 100%; height: 100%"
+        />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Agricultural, Livestock & Poultry Commodity Trading Company</h1>
+        <p>
+          Your trusted partner for quality maize, soyabeans, livestock & poultry
+          from Ghana to global markets. Guaranteed quality, reliable delivery,
+          competitive pricing.
+        </p>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn btn-primary">Trade With Us</a>
+          <a href="#quoteModal" class="btn btn-secondary request-quote-btn"
+            >Request a Quote</a
+          >
+          <a href="about.html" class="btn btn-outline">Partner With Us</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section-light fade-in">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-target="250">0</span>
+            <span class="stat-text">Trusted Producers Network</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="1500">0</span>
+            <span class="stat-text">Tonnes Monthly Export</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="12">0</span>
+            <span class="stat-text">Countries Served</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="98">0</span>
+            <span class="stat-text">Client Satisfaction Rate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Who We Are</h2>
+          <p>Your reliable partner in agricultural commodity trading</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tractor"></i>
+            </div>
+            <h3>Agricultural Expertise</h3>
+            <p>
+              Deep understanding of Ghana's agricultural landscape and commodity
+              markets.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-globe-africa"></i>
+            </div>
+            <h3>Global Reach</h3>
+            <p>
+              Exporting premium Ghanaian agricultural products to international
+              markets.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Trusted Partnerships</h3>
+            <p>
+              Building long-term relationships with farmers, suppliers, and
+              buyers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Products -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Key Products</h2>
+          <p>Premium agricultural commodities from Ghana</p>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <img
+              src="images/maize.jpg"
+              alt="Maize grains - High quality corn for food processing"
+              class="product-img"
+            />
+            <div class="product-content">
+              <h3 class="product-title">Maize</h3>
+              <p>
+                High-quality maize for human consumption, animal feed, and
+                industrial use.
+              </p>
+              <a href="products.html#maize" class="btn btn-outline"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="images/soyabeans.webp"
+              alt="Soyabeans - Protein-rich legumes for various industries"
+              class="product-img"
+            />
+            <div class="product-content">
+              <h3 class="product-title">Soyabeans</h3>
+              <p>
+                Protein-rich soyabeans for oil production, animal feed, and food
+                processing.
+              </p>
+              <a href="products.html#soyabeans" class="btn btn-outline"
+                >Learn More</a
+              >
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="images/chicken.jpg"
+              alt="Chicken and eggs - Fresh poultry products"
+              class="product-img"
+            />
+            <div class="product-content">
+              <h3 class="product-title">Poultry Products</h3>
+              <p>
+                Fresh chicken, eggs, and other poultry products for retail and
+                wholesale.
+              </p>
+              <a href="products.html#poultry" class="btn btn-outline"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Why Choose NecsTrade</h2>
+          <p>Excellence in agricultural commodity trading</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Quality Assurance</h3>
+            <p>
+              Rigorous quality control and grading systems ensure premium
+              products.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Reliable Logistics</h3>
+            <p>
+              Efficient supply chain management for timely delivery across
+              borders.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Market Expertise</h3>
+            <p>
+              Deep market insights and advisory services for optimal trading
+              decisions.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <h3>Competitive Pricing</h3>
+            <p>
+              Direct sourcing from producers ensures competitive market prices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Stay Updated</h2>
+          <p>Subscribe to our newsletter for market insights and updates</p>
+        </div>
+
+        <form
+          id="newsletterForm"
+          class="contact-form"
+          style="max-width: 600px; margin: 0 auto"
+        >
+          <div class="form-group">
+            <label for="newsletterEmail" class="form-label"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              id="newsletterEmail"
+              class="form-control"
+              placeholder="your.email@example.com"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>NecsTrade</h3>
+            <p>
+              Your trusted partner for agricultural commodity trading in Ghana
+              and West Africa. We connect producers with global markets through
+              reliable supply chains.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+              <li><i class="fas fa-phone"></i> 0598460941</li>
+              <li><i class="fas fa-envelope"></i> necstrade@gmail.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Our Products</h3>
+            <ul class="footer-links">
+              <li><a href="products.html#maize">Maize</a></li>
+              <li><a href="products.html#soyabeans">Soyabeans</a></li>
+              <li><a href="products.html#poultry">Poultry Products</a></li>
+              <li><a href="products.html#cashew">Cashew Nuts</a></li>
+              <li><a href="products.html#pepper">Chilli Pepper</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 NecsTrade Agricultural Commodity Trading. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div class="modal" id="quoteModal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2 style="color: var(--deep-green)">Request a Quote</h2>
+        <p>
+          Fill in your details and commodity requirements for a customized
+          quote.
+        </p>
+
+        <form id="quoteForm">
+          <div class="form-group">
+            <label for="quoteName" class="form-label">Full Name *</label>
+            <input
+              type="text"
+              id="quoteName"
+              name="name"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCompany" class="form-label">Company Name</label>
+            <input
+              type="text"
+              id="quoteCompany"
+              name="company"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="quoteEmail" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              id="quoteEmail"
+              name="email"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quotePhone" class="form-label">Phone Number *</label>
+            <input
+              type="tel"
+              id="quotePhone"
+              name="phone"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCommodity" class="form-label"
+              >Commodity Interest *</label
+            >
+            <select
+              id="quoteCommodity"
+              name="commodity"
+              class="form-control"
+              required
+            >
+              <option value="">Select a commodity</option>
+              <option value="maize">Maize</option>
+              <option value="soyabeans">Soyabeans</option>
+              <option value="cashew">Cashew Nuts</option>
+              <option value="pepper">Chilli Pepper</option>
+              <option value="sugar">Sugar</option>
+              <option value="eggs">Eggs</option>
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteQuantity" class="form-label"
+              >Quantity Requirement *</label
+            >
+            <input
+              type="text"
+              id="quoteQuantity"
+              name="quantity"
+              class="form-control"
+              placeholder="e.g., 100 tonnes, 5000 kg"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteMessage" class="form-label"
+              >Additional Information</label
+            >
+            <textarea
+              id="quoteMessage"
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Any specific requirements or details..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Request Quote
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

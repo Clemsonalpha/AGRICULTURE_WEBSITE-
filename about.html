@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      About NecsTrade - Agricultural Commodity Trading Company | Ghana
+    </title>
+    <meta
+      name="description"
+      content="Learn about NecsTrade, our mission, vision, values, and trading approach as a leading agricultural commodity trading company in Ghana."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loader"></div>
+      <p style="margin-top: 20px; color: var(--deep-green)">Loading...</p>
+    </div>
+
+    <!-- Header (same as index.html) -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <div class="logo-img">
+            <i
+              class="fas fa-leaf"
+              style="color: var(--deep-green); font-size: 2rem"
+            ></i>
+          </div>
+          <span class="logo-text">NecsTrade</span>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link active">About</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="products.html" class="nav-link">Products</a></li>
+            <li><a href="industries.html" class="nav-link">Industries</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+            >Request Quote</a
+          >
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+      <div class="container">
+        <ul class="breadcrumb-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="separator">/</li>
+          <li class="current">About Us</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero hero-inner">
+      <div
+        class="hero-overlay"
+        style="
+          background: linear-gradient(
+            to bottom,
+            rgba(27, 94, 32, 0.9) 0%,
+            rgba(27, 94, 32, 0.7) 100%
+          );
+        "
+      ></div>
+      <div class="hero-content">
+        <h1>About NecsTrade</h1>
+        <p>
+          Building bridges between Ghana's agricultural producers and global
+          markets since our inception.
+        </p>
+      </div>
+    </section>
+
+    <!-- Company Background -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Story</h2>
+          <p>From local beginnings to international reach</p>
+        </div>
+
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <h3 style="margin-bottom: var(--space-md)">
+              Building Agricultural Bridges
+            </h3>
+            <p>
+              Founded in Accra, Ghana, NecsTrade began with a simple mission: to
+              connect the rich agricultural resources of Ghana with global
+              markets that demand quality and reliability.
+            </p>
+            <p>
+              What started as a local commodity trading operation has grown into
+              a comprehensive agricultural trading company serving clients
+              across West Africa and beyond.
+            </p>
+            <p>
+              Today, we handle thousands of tonnes of agricultural products
+              annually, maintaining strong relationships with farmers,
+              processors, and international buyers.
+            </p>
+          </div>
+          <div>
+            <div
+              style="
+                border-radius: var(--radius-lg);
+                overflow: hidden;
+                box-shadow: var(--shadow-lg);
+              "
+            >
+              <img
+                src="images/checkagri.jpg"
+                alt="NecsTrade agricultural trading operations in Ghana"
+                style="width: 100%; height: auto; display: block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="grid-template-columns: 1fr 1fr; gap: var(--space-xl)"
+        >
+          <div
+            class="feature-card"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--deep-green),
+                var(--leaf-green)
+              );
+              color: white;
+              text-align: left;
+            "
+          >
+            <div class="feature-icon" style="color: white">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h3 style="color: white">Our Mission</h3>
+            <p>
+              To be the most reliable and trusted agricultural commodity trading
+              partner in West Africa, creating sustainable value for farmers,
+              clients, and communities through transparent and efficient trading
+              practices.
+            </p>
+            <p>
+              We aim to enhance food security and economic development by
+              connecting quality agricultural producers with markets that
+              appreciate and reward their efforts.
+            </p>
+          </div>
+
+          <div
+            class="feature-card"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--earth-brown),
+                var(--golden-yellow)
+              );
+              color: white;
+              text-align: left;
+            "
+          >
+            <div class="feature-icon" style="color: white">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 style="color: white">Our Vision</h3>
+            <p>
+              To transform Ghana into a premier hub for agricultural commodity
+              trading in Africa, recognized globally for quality, reliability,
+              and innovation in agricultural supply chains.
+            </p>
+            <p>
+              We envision a future where Ghanaian agricultural products are the
+              first choice for quality-conscious buyers worldwide, driving
+              prosperity for all stakeholders in the value chain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Core Values</h2>
+          <p>The principles that guide our operations</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Integrity</h3>
+            <p>
+              We conduct all transactions with honesty, transparency, and
+              ethical business practices.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Quality Excellence</h3>
+            <p>
+              We maintain rigorous standards to ensure only premium products
+              reach our clients.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Partnership</h3>
+            <p>
+              We build lasting relationships based on mutual trust and shared
+              success.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3>Innovation</h3>
+            <p>
+              We continuously improve our processes and adopt new technologies
+              for better service.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Reliability</h3>
+            <p>
+              We deliver on our promises with consistency and dependability.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3>Sustainability</h3>
+            <p>
+              We promote environmentally responsible and socially beneficial
+              trading practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trading Approach -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Trading Approach</h2>
+          <p>How we ensure successful transactions</p>
+        </div>
+
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              class="lazy"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            >
+              <source src="videos/video5.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <h3 style="margin-bottom: var(--space-md)">
+              End-to-End Trading Solutions
+            </h3>
+            <p>
+              Our comprehensive approach covers every aspect of agricultural
+              commodity trading:
+            </p>
+            <ul style="margin-bottom: var(--space-md); padding-left: 20px">
+              <li style="margin-bottom: var(--space-sm)">
+                <strong>Direct Sourcing:</strong> Working directly with verified
+                farmers and producers
+              </li>
+              <li style="margin-bottom: var(--space-sm)">
+                <strong>Quality Assurance:</strong> Rigorous inspection and
+                grading at every stage
+              </li>
+              <li style="margin-bottom: var(--space-sm)">
+                <strong>Logistics Management:</strong> Coordinating efficient
+                transport and storage
+              </li>
+              <li style="margin-bottom: var(--space-sm)">
+                <strong>Market Access:</strong> Connecting products with the
+                right buyers
+              </li>
+              <li style="margin-bottom: var(--space-sm)">
+                <strong>Risk Management:</strong> Minimizing uncertainties
+                through careful planning
+              </li>
+              <li>
+                <strong>After-Sales Support:</strong> Ensuring satisfaction
+                throughout the transaction
+              </li>
+            </ul>
+            <a href="services.html" class="btn btn-primary"
+              >Explore Our Services</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team/Leadership Section -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Leadership & Expertise</h2>
+          <p>Experienced professionals guiding our operations</p>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card" style="text-align: center">
+            <div
+              style="
+                width: 120px;
+                height: 120px;
+                background: var(--light-gray);
+                border-radius: 50%;
+                margin: 0 auto var(--space-md);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <i
+                class="fas fa-user-tie"
+                style="font-size: 3rem; color: var(--medium-gray)"
+              ></i>
+            </div>
+            <h3 class="product-title">Kwame Asare</h3>
+            <p
+              style="
+                color: var(--deep-green);
+                font-weight: 600;
+                margin-bottom: var(--space-sm);
+              "
+            >
+              Founder & CEO
+            </p>
+            <p>
+              20+ years in agricultural commodity <br />
+              trading with extensive experience in international markets.
+            </p>
+          </div>
+
+          <div class="product-card" style="text-align: center">
+            <div
+              style="
+                width: 120px;
+                height: 120px;
+                background: var(--light-gray);
+                border-radius: 50%;
+                margin: 0 auto var(--space-md);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <i
+                class="fas fa-user-tie"
+                style="font-size: 3rem; color: var(--medium-gray)"
+              ></i>
+            </div>
+            <h3 class="product-title">Ama Serwah</h3>
+            <p
+              style="
+                color: var(--deep-green);
+                font-weight: 600;
+                margin-bottom: var(--space-sm);
+              "
+            >
+              Operations Director
+            </p>
+            <p>
+              Expert in supply chain management and quality control systems for
+              agricultural products.
+            </p>
+          </div>
+
+          <div class="product-card" style="text-align: center">
+            <div
+              style="
+                width: 120px;
+                height: 120px;
+                background: var(--light-gray);
+                border-radius: 50%;
+                margin: 0 auto var(--space-md);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <i
+                class="fas fa-user-tie"
+                style="font-size: 3rem; color: var(--medium-gray)"
+              ></i>
+            </div>
+            <h3 class="product-title">Kofi Mensah</h3>
+            <p
+              style="
+                color: var(--deep-green);
+                font-weight: 600;
+                margin-bottom: var(--space-sm);
+              "
+            >
+              Head of Trading
+            </p>
+            <p>
+              Specialist in market analysis and commodity pricing <br />
+              strategies across African markets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>NecsTrade</h3>
+            <p>
+              Your trusted partner for agricultural commodity trading in Ghana
+              and West Africa. We connect producers with global markets through
+              reliable supply chains.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+              <li><i class="fas fa-phone"></i> 0598460941</li>
+              <li><i class="fas fa-envelope"></i> necstrade@gmail.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Our Products</h3>
+            <ul class="footer-links">
+              <li><a href="products.html#maize">Maize</a></li>
+              <li><a href="products.html#soyabeans">Soyabeans</a></li>
+              <li><a href="products.html#poultry">Poultry Products</a></li>
+              <li><a href="products.html#cashew">Cashew Nuts</a></li>
+              <li><a href="products.html#pepper">Chilli Pepper</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 NecsTrade Agricultural Commodity Trading. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div class="modal" id="quoteModal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2 style="color: var(--deep-green)">Request a Quote</h2>
+        <p>
+          Fill in your details and commodity requirements for a customized
+          quote.
+        </p>
+
+        <form id="quoteForm">
+          <div class="form-group">
+            <label for="quoteName" class="form-label">Full Name *</label>
+            <input
+              type="text"
+              id="quoteName"
+              name="name"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCompany" class="form-label">Company Name</label>
+            <input
+              type="text"
+              id="quoteCompany"
+              name="company"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="quoteEmail" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              id="quoteEmail"
+              name="email"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quotePhone" class="form-label">Phone Number *</label>
+            <input
+              type="tel"
+              id="quotePhone"
+              name="phone"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCommodity" class="form-label"
+              >Commodity Interest *</label
+            >
+            <select
+              id="quoteCommodity"
+              name="commodity"
+              class="form-control"
+              required
+            >
+              <option value="">Select a commodity</option>
+              <option value="maize">Maize</option>
+              <option value="soyabeans">Soyabeans</option>
+              <option value="cashew">Cashew Nuts</option>
+              <option value="pepper">Chilli Pepper</option>
+              <option value="sugar">Sugar</option>
+              <option value="eggs">Eggs</option>
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteQuantity" class="form-label"
+              >Quantity Requirement *</label
+            >
+            <input
+              type="text"
+              id="quoteQuantity"
+              name="quantity"
+              class="form-control"
+              placeholder="e.g., 100 tonnes, 5000 kg"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteMessage" class="form-label"
+              >Additional Information</label
+            >
+            <textarea
+              id="quoteMessage"
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Any specific requirements or details..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Request Quote
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

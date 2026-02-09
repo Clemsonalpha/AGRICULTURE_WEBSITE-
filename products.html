@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Our Products - Agricultural Commodities | Maize, Soyabeans, Poultry |
+      NecsTrade
+    </title>
+    <meta
+      name="description"
+      content="Explore NecsTrade's premium agricultural commodities including maize, soyabeans, cashew, chilli pepper, poultry products, and livestock from Ghana."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loader"></div>
+      <p style="margin-top: 20px; color: var(--deep-green)">Loading...</p>
+    </div>
+
+    <!-- Header (same structure as index.html) -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <div class="logo-img">
+            <i
+              class="fas fa-leaf"
+              style="color: var(--deep-green); font-size: 2rem"
+            ></i>
+          </div>
+          <span class="logo-text">NecsTrade</span>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="products.html" class="nav-link">Products</a></li>
+            <li><a href="industries.html" class="nav-link">Industries</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+            >Request Quote</a
+          >
+        </nav>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+      <div class="container">
+        <ul class="breadcrumb-links">
+          <li><a href="index.html">Home</a></li>
+          <li class="separator">/</li>
+          <li class="current">Our Products</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero hero-inner">
+      <div
+        class="hero-overlay"
+        style="
+          background: linear-gradient(
+            to bottom,
+            rgba(27, 94, 32, 0.9) 0%,
+            rgba(27, 94, 32, 0.7) 100%
+          );
+        "
+      ></div>
+      <div class="hero-content">
+        <h1>Our Products</h1>
+        <p>Premium agricultural commodities from Ghana's fertile lands</p>
+      </div>
+    </section>
+
+    <!-- Products Navigation -->
+    <section class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Commodity Portfolio</h2>
+          <p>Explore our range of agricultural products</p>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            justify-content: center;
+            margin-bottom: var(--space-xl);
+          "
+        >
+          <a href="#maize" class="btn btn-outline">Maize</a>
+          <a href="#soyabeans" class="btn btn-outline">Soyabeans</a>
+          <a href="#cashew" class="btn btn-outline">Cashew</a>
+          <a href="#pepper" class="btn btn-outline">Chilli Pepper</a>
+          <a href="#sugar" class="btn btn-outline">Sugar</a>
+          <a href="#eggs" class="btn btn-outline">Eggs</a>
+          <a href="#chicken" class="btn btn-outline">Chicken</a>
+          <a href="#pork" class="btn btn-outline">Pork</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maize Product -->
+    <section id="maize" class="section section-dark fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <img
+              src="images/maize.jpg"
+              alt="High quality maize grains from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+          <div>
+            <h2>Maize (Corn)</h2>
+            <p>
+              Premium quality maize sourced directly from Ghana's fertile
+              farmlands. Our maize meets international standards for human
+              consumption, animal feed, and industrial applications.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Specifications</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Moisture Content: 12-14% max</li>
+              <li>Purity: 98% min</li>
+              <li>Broken Grains: 2% max</li>
+              <li>Foreign Matter: 1% max</li>
+              <li>Aflatoxin: <20 ppb</li>
+            </ul>
+
+            <h3>Common Uses</h3>
+            <p>
+              Food processing, animal feed production, starch manufacturing,
+              brewing, and direct human consumption.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Maize Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soyabeans Product -->
+    <section id="soyabeans" class="section section-light fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <h2>Soyabeans</h2>
+            <p>
+              High-protein soyabeans perfect for oil extraction, animal feed,
+              and food processing. Sourced from verified farms with optimal
+              growing conditions.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Specifications</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Protein Content: 38-42%</li>
+              <li>Oil Content: 18-20%</li>
+              <li>Moisture: 10% max</li>
+              <li>Foreign Matter: 1% max</li>
+              <li>Split Beans: 3% max</li>
+            </ul>
+
+            <h3>Common Uses</h3>
+            <p>
+              Soybean oil production, animal feed (soybean meal), tofu, soy
+              milk, and various food products.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Soyabeans Quote</a
+              >
+            </div>
+          </div>
+          <div>
+            <img
+              src="images/soyabeans1.webp"
+              alt="Protein-rich soyabeans from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cashew Product -->
+    <section id="cashew" class="section section-dark fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <img
+              src="images/Cashew_nuts.jpg"
+              alt="Premium cashew nuts from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+          <div>
+            <h2>Cashew Nuts</h2>
+            <p>
+              Premium quality cashew nuts from Ghana's cashew-growing regions.
+              Available raw, roasted, salted, or as kernels for various
+              applications.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Grades Available</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>W180 (Super Large)</li>
+              <li>W210 (Large)</li>
+              <li>W240 (Medium)</li>
+              <li>W320 (Small)</li>
+              <li>SW (Smaller Pieces)</li>
+            </ul>
+
+            <h3>Common Uses</h3>
+            <p>
+              Snack foods, confectionery, baking, cooking oil, and industrial
+              applications.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Cashew Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chilli Pepper Product -->
+    <section id="pepper" class="section section-light fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <h2>Chilli Pepper</h2>
+            <p>
+              High-quality chilli pepper with excellent color, aroma, and heat
+              levels. Available in various forms including whole dried,
+              powdered, and flakes.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Specifications</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Color: Bright red</li>
+              <li>Moisture: 12% max</li>
+              <li>Ash Content: 8% max</li>
+              <li>Extraneous Matter: 1% max</li>
+              <li>Scoville Heat Units: 30,000-50,000</li>
+            </ul>
+
+            <h3>Common Uses</h3>
+            <p>
+              Spice production, food seasoning, sauce manufacturing, and
+              pharmaceutical applications.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Pepper Quote</a
+              >
+            </div>
+          </div>
+          <div>
+            <img
+              src="images/pepper.jpg"
+              alt="Spicy chilli pepper from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eggs Product -->
+    <section id="eggs" class="section section-dark fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <img
+              src="images/egg.jpg"
+              alt="Fresh eggs from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+          <div>
+            <h2>Fresh Eggs</h2>
+            <p>
+              Daily supply of fresh, quality eggs from hygienic poultry farms.
+              Available in various sizes and packaging options.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Available Grades</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Jumbo (70g+)</li>
+              <li>Extra Large (63-69g)</li>
+              <li>Large (56-62g)</li>
+              <li>Medium (49-55g)</li>
+              <li>Small (42-48g)</li>
+            </ul>
+
+            <h3>Packaging Options</h3>
+            <p>
+              Trays (30 eggs), cartons (12 eggs), or bulk crates. Regular weekly
+              or monthly supply contracts available.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Eggs Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chicken Product -->
+    <section id="chicken" class="section section-light fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <h2>Chicken Products</h2>
+            <p>
+              Quality chicken products including live birds, whole chicken, and
+              various cuts. Sourced from approved farms with proper veterinary
+              supervision.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Available Products</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Live chicken (various weights)</li>
+              <li>Whole dressed chicken</li>
+              <li>Chicken parts (breasts, thighs, wings)</li>
+              <li>Processed chicken products</li>
+              <li>Frozen chicken</li>
+            </ul>
+
+            <h3>Quality Assurance</h3>
+            <p>
+              All products come with veterinary health certificates and are
+              processed in approved facilities.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Chicken Quote</a
+              >
+            </div>
+          </div>
+          <div>
+            <img
+              src="images/chicken2.jpg"
+              alt="Quality chicken products from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pork Product -->
+    <section id="pork" class="section section-dark fade-in">
+      <div class="container">
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <img
+              src="images/pig.jpg"
+              alt="Fresh pork products from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+          <div>
+            <h2>Pork Products</h2>
+            <p>
+              Quality pork products from approved farms with proper feeding and
+              veterinary care. Available fresh or frozen in various cuts.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Available Cuts</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Pork chops</li>
+              <li>Pork belly</li>
+              <li>Pork shoulder</li>
+              <li>Pork ribs</li>
+              <li>Ground pork</li>
+              <li>Processed pork products</li>
+            </ul>
+
+            <h3>Supply Options</h3>
+            <p>
+              Regular supply arrangements available for hotels, restaurants,
+              supermarkets, and food processors.
+            </p>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Pork Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sugar Product -->
+    <section id="sugar" class="section section-light fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Sugar</h2>
+          <p>High-quality refined sugar for various applications</p>
+        </div>
+
+        <div
+          class="features-grid"
+          style="
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+          "
+        >
+          <div>
+            <h3>Product Description</h3>
+            <p>
+              Premium refined sugar suitable for food processing, beverage
+              production, and retail distribution. Available in various
+              granulation sizes and packaging options.
+            </p>
+
+            <h3 style="margin-top: var(--space-md)">Specifications</h3>
+            <ul style="margin-bottom: var(--space-md)">
+              <li>Polarization: 99.8° min</li>
+              <li>Moisture: 0.04% max</li>
+              <li>Ash Content: 0.04% max</li>
+              <li>Color: 45 ICUMSA max</li>
+              <li>Granulation: Various sizes available</li>
+            </ul>
+
+            <div style="margin-top: var(--space-md)">
+              <a href="#quoteModal" class="btn btn-primary request-quote-btn"
+                >Request Sugar Quote</a
+              >
+            </div>
+          </div>
+          <div>
+            <img
+              src="images/sugar.jpg"
+              alt="Refined sugar from Ghana"
+              style="
+                width: 100%;
+                border-radius: var(--radius-lg);
+                box-shadow: var(--shadow-lg);
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Enquiry Section -->
+    <section class="section section-dark fade-in">
+      <div class="container">
+        <div class="section-title">
+          <h2>Product Enquiry</h2>
+          <p>
+            Interested in any of our products? Contact us for more information
+          </p>
+        </div>
+
+        <div style="text-align: center">
+          <a
+            href="contact.html"
+            class="btn btn-primary"
+            style="margin-right: var(--space-sm)"
+            >Contact Us</a
+          >
+          <a href="#quoteModal" class="btn btn-secondary request-quote-btn"
+            >Request Bulk Quote</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>NecsTrade</h3>
+            <p>
+              Your trusted partner for agricultural commodity trading in Ghana
+              and West Africa. We connect producers with global markets through
+              reliable supply chains.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="industries.html">Industries</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+              <li><i class="fas fa-phone"></i> 0598460941</li>
+              <li><i class="fas fa-envelope"></i> necstrade@gmail.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 8AM-6PM</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Our Products</h3>
+            <ul class="footer-links">
+              <li><a href="products.html#maize">Maize</a></li>
+              <li><a href="products.html#soyabeans">Soyabeans</a></li>
+              <li><a href="products.html#poultry">Poultry Products</a></li>
+              <li><a href="products.html#cashew">Cashew Nuts</a></li>
+              <li><a href="products.html#pepper">Chilli Pepper</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 NecsTrade Agricultural Commodity Trading. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div class="modal" id="quoteModal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <h2 style="color: var(--deep-green)">Request a Quote</h2>
+        <p>
+          Fill in your details and commodity requirements for a customized
+          quote.
+        </p>
+
+        <form id="quoteForm">
+          <div class="form-group">
+            <label for="quoteName" class="form-label">Full Name *</label>
+            <input
+              type="text"
+              id="quoteName"
+              name="name"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCompany" class="form-label">Company Name</label>
+            <input
+              type="text"
+              id="quoteCompany"
+              name="company"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="quoteEmail" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              id="quoteEmail"
+              name="email"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quotePhone" class="form-label">Phone Number *</label>
+            <input
+              type="tel"
+              id="quotePhone"
+              name="phone"
+              class="form-control"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteCommodity" class="form-label"
+              >Commodity Interest *</label
+            >
+            <select
+              id="quoteCommodity"
+              name="commodity"
+              class="form-control"
+              required
+            >
+              <option value="">Select a commodity</option>
+              <option value="maize">Maize</option>
+              <option value="soyabeans">Soyabeans</option>
+              <option value="cashew">Cashew Nuts</option>
+              <option value="pepper">Chilli Pepper</option>
+              <option value="sugar">Sugar</option>
+              <option value="eggs">Eggs</option>
+              <option value="chicken">Chicken</option>
+              <option value="pork">Pork</option>
+              <option value="other">Other</option>
+            </select>
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteQuantity" class="form-label"
+              >Quantity Requirement *</label
+            >
+            <input
+              type="text"
+              id="quoteQuantity"
+              name="quantity"
+              class="form-control"
+              placeholder="e.g., 100 tonnes, 5000 kg"
+              required
+            />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteMessage" class="form-label"
+              >Additional Information</label
+            >
+            <textarea
+              id="quoteMessage"
+              name="message"
+              class="form-control"
+              rows="4"
+              placeholder="Any specific requirements or details..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%">
+            Request Quote
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
